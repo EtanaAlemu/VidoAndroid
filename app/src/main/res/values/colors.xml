@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base application theme Color-->
+    <color name="base_colorPrimary">#34495e</color>
+    <color name="base_colorPrimaryDark">#212e3b</color>
+    <color name="base_colorAccent">#0091EA</color>
+
+    <color name="base_background_color">#e5e5e5</color>
+    <color name="base_card_background_color">#ffffff</color>
+
+    <color name="base_text_color">#212121</color>
+    <color name="base_tint_color">@color/base_colorAccent</color>
+
+    <color name="base_button_color">@color/base_colorAccent</color>
+
+    <color name="base_gradient_start_color">#4c84ff</color>
+    <color name="base_gradient_end_color">#18a3fe</color>
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title">#212121</color>
+    <color name="intro_description">#727272</color>
+
+
+    <!--Dark application theme color-->
+    <color name="dark_colorPrimary">#212121</color>
+    <color name="dark_colorPrimaryDark">#000000</color>
+    <color name="dark_colorAccent">#0091EA</color>
+
+    <color name="dark_background_color">#212121</color>
+    <color name="dark_card_background_color">#313131</color>
+
+    <color name="dark_text_color">#d5d5d5</color>
+    <color name="dark_tint_color">@color/dark_colorAccent</color>
+
+    <color name="dark_button_color">@color/dark_colorAccent</color>
+
+    <color name="dark_gradient_start_color">#4c84ff</color>
+    <color name="dark_gradient_end_color">#18a3fe</color>
+
+
+</resources>

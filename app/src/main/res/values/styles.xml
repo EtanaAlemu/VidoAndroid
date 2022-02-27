@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base mode theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/base_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/base_colorPrimaryDark</item>
+        <item name="colorAccent">@color/base_colorAccent</item>
+        <item name="background_color">@color/base_background_color</item>
+        <item name="card_background">@color/base_card_background_color</item>
+        <item name="text_color">@color/base_text_color</item>
+        <item name="tint_color">@color/base_tint_color</item>
+        <item name="button_color">@color/base_button_color</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <!-- Night mode theme. -->
+    <style name="NightTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dark_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dark_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dark_colorAccent</item>
+        <item name="background_color">@color/dark_background_color</item>
+        <item name="card_background">@color/dark_card_background_color</item>
+        <item name="text_color">@color/dark_text_color</item>
+        <item name="tint_color">@color/dark_tint_color</item>
+        <item name="button_color">@color/dark_button_color</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+    <style name="BaseTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NightTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Intro" parent="BaseTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Splash">
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="windowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="BaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <style name="NightTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="BaseTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NightTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
